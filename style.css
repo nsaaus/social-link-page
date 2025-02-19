@@ -1,0 +1,105 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey700: hsl(0, 0%, 20%);
+  --grey800: hsl(0, 0%, 12%);
+  --grey900: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--grey900);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-size: 14px;
+  color: var(--white);
+  font-family: "Inter";
+}
+
+.container {
+  background-color: var(--grey800);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  padding: 5vh;
+  border-radius: 2vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 30%;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vh;
+}
+
+.header h1 {
+  font-weight: 400;
+}
+
+.header p {
+  font-weight: 600;
+  color: var(--green);
+}
+
+.job {
+  font-size: small;
+  padding-top: 2vh;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vh;
+}
+
+button {
+  width: 100%;
+  height: 6vh;
+  border-radius: 1vh;
+  border: none;
+  background-color: var(--grey700);
+  color: var(--white);
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--grey900);
+}
+
+button:focus {
+  background-color: var(--green);
+  color: var(--grey900);
+}
