@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Here](https://your-solution-url.com)
-- Live Site URL: [View Here](https://your-live-site-url.com)
+- Solution URL: [View Here](https://github.com/nsaaus/social-link-page)
+- Live Site URL: [View Here](https://nsaaus.github.io/social-link-page/)
 
 ## Tech Stack
 
